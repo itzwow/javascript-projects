@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" >
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" integrity="sha512-Fo3rlrZj/k7ujTnHg4CGR2D7kSs0v4LLanw2qksYuRlEzO+tcaEPQogQ0KaoGN26/zrn20ImR1DfuLWnOo7aBA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Converter</title>
+</head>
+
+<body>
+    <div class="container">
+        <h2 class="display-4 text-center mb-4 font-weight-bold text"><u> BMI CALCULATOR</u></h2>
+        <form>
+            <i class="fas fa-weight-hanging fa-2x" style="display: inline-block;"></i>
+            <h4 class="display-5 text-left mb-3" style="display: inline-block;">Weight</h4>
+            
+            <div class="form-group">
+                
+                <input type="number" class="form-control form-control-lg" id="kgsInput" placeholder="Enter Kilograms">
+            </div>
+        </form>
+        <div class="card card-primary mb-2">
+            <div class="card-block">
+                <h4>pounds:</h4>
+                <div id="lbsOutput">
+
+                </div>
+            </div>
+        </div>
+
+        <form>
+            <i class="fas fa-ruler-vertical fa-2x" style="display: inline-block;"></i>
+            <h4 class="display-5 text-left mb-3" style="display: inline-block;">Height</h4>
+            <div class="form-group">
+                <input type="number" class="form-control form-control-lg" id="cmInput" placeholder="Enter Height in cm">
+            </div>
+        </form>
+        <div class="card card-primary mb-2">
+            <div class="card-block">
+                <h4>Height in Feets</h4>
+                <div id="ftOutput">
+
+                </div>
+            </div>
+        </div>
+
+        <div class="btn">
+            <button  type="submit" id="btnInput" class="btnInput" > Click  Here To check your BMI</button>
+           <p id="bmiOutput">=</p>
+        </div>
+
+
+
+
+        
+    </div>
+    <script src="main.js"></script>
+
+</body>
+
+</html>
