@@ -1,0 +1,199 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;700&display=swap');
+
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    font-family: 'Montserrat', sans-serif;
+}
+
+a{
+    text-decoration: none;
+    color: #f4f4f4;
+}
+.header{
+    position: relative;
+    min-height: 60vh;
+    background: url("./bg-img.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: #f4f4f4;
+    
+
+}
+
+.container{
+    max-width: 1000px;
+    margin: auto;
+    width: 85%;
+
+}
+
+.nav{
+    min-height: 8vh;
+    display: flex;
+    justify-content: space-between;
+   
+
+}
+
+.nav-items{
+    width: 40%;
+    display: flex;
+    list-style-type: none;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.headline{
+    position: absolute;
+    text-align: center;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.btn{
+    display:inline-block;
+    outline: none;
+    border: none;
+    cursor: pointer;
+}
+
+.btn-headline{
+    padding: 1rem 2rem;
+    font-size: 1.2rem;
+    margin-top: 1rem;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    border-radius: 20px;
+}
+
+.section-todo{
+    margin-top: 5rem;
+    text-align: center;
+
+
+}
+
+
+.bg-dark{
+    background: #444;
+    color: #f4f4f4;
+}
+
+.form-todo{
+    /* border: 2px solid red; */
+    min-height: 5vh;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 1rem;
+}
+.todo-list{
+    text-align: left;
+    font-size: 1.2rem;
+    list-style-type: none;
+    
+}
+
+.todo-list li{
+    padding: 0.7rem;
+    background: #444;
+    color: #fff;
+    margin-top: 1rem;
+    text-transform: capitalize;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.todo-btn{
+    padding: 0.5rem;
+    font-size: 1rem;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+
+.form-todo input{
+    min-height: 100%;
+}
+
+.form-todo input[type= "text"]{
+    width: 75%;
+    pad: 0.8rem;
+    font-size: 1rem;
+    font-weight: 500;
+}
+
+.form-todo input[type = "submit"]{
+    width: 22%;
+    background: rgb(44, 55, 63);
+    color: #f4f4f4;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+}
+
+.section-signup{
+    margin-top: 5rem;
+    text-align: center;
+    background: rgb(187, 187, 187);
+    min-width: 60vw;
+    max-width: 60%;
+    border-radius: 20px;
+    
+}
+.section-signup h2{
+   padding-top: 1rem;
+   text-decoration: underline;
+}
+
+.signupForm {
+    max-width: 800px;
+    width: 90%;
+    margin: auto;
+    text-align: left;
+
+}
+
+.signupForm label {
+    display: block;
+}
+
+
+.signupForm input, textarea{
+    display: block;
+    width: 100%;
+    padding: 0.4rem;
+}
+.form-group{
+    margin-top: 1rem;
+    padding: 0.12rem;
+}
+.signup-btn{
+    padding: 0.8rem;
+    font-size: 1rem;
+    margin-top: 1rem;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+    border-radius: 40px;
+    align-items: center;
+    margin-bottom: 1rem;
+    background: rgb(44, 55, 63);
+    color: #fff;
+}
+
+.footer{
+    background: rgb(44, 55, 63);
+    width: 100%;
+    margin-top: 1.5rem ;
+    min-height: 12vh;
+}
+.footer-text{
+    margin-top: 1rem;
+    padding: 1.5em;
+    text-align: center;
+}
