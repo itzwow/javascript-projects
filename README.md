@@ -7,3 +7,5 @@ This repository has basic Java Script projects like To-do list , BMI calculator
 
 -> Dark-mode Toggle:https://itzwow.github.io/darkMode-toggle
 
+-> Dice Game:https://itzwow.github.io/javascript-projects/Dice%20Game
+
