@@ -9,3 +9,7 @@ This repository has basic Java Script projects like To-do list , BMI calculator
 
 -> Dice Game:https://itzwow.github.io/javascript-projects/Dice%20Game
 
+-> Glowing Icons:https://itzwow.github.io/javascript-projects/glowingIcons
+
+-> Simple Calculator:https://itzwow.github.io/javascript-projects/simple-calculator
+
