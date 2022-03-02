@@ -50,6 +50,7 @@ const calculateTemp = ()=>{
         }
     }else{
         document.getElementById("resultDisplay").innerHTML=`Please select a Scale`
+        emoji.innerHTML = "";
     }
 }
 
