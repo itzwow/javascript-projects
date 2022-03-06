@@ -14,3 +14,5 @@ This repository has basic Java Script projects like To-do list , BMI calculator
 -> Simple Calculator:https://itzwow.github.io/javascript-projects/simple-calculator
 
 -> Temperature Converter:https://itzwow.github.io/javascript-projects/temperature-converter
+
+-> Drum Kit: https://itzwow.github.io/javascript-projects/Drum%20kit
