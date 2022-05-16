@@ -1,18 +1,34 @@
-# javascript-projects
-This repository has basic Java Script projects like To-do list , BMI calculator
+# Welcome!👋 To Javascript-Projects Repository
 
--> Random Color generator:https://itzwow.github.io/randomColor 
+## This repository has Java Script projects of various levels.
 
--> BMI calculator: https://itzwow.github.io/bmi_calculator
+## List of Projects:-
+| Sl.No.| Project | URL |
+|:---|:---|:---| 
+|1.| BMI calculator | [Demo Link](https://itzwow.github.io/bmi_calculator)|
+|2.| Dark-mode Toggle| [Demo Link](https://itzwow.github.io/darkMode-toggle)|
+|3.| Dice Game| [Demo Link](https://itzwow.github.io/javascript-projects/Dice%20Game)|
+|4.| Drum Kit| [Demo Link](https://itzwow.github.io/javascript-projects/Drum%20kit)|
+|5.| Glowing Icons| [Demo Link](https://itzwow.github.io/javascript-projects/glowingIcons)|
+|6.| Random Color generator| [Demo Link](https://itzwow.github.io/randomColor)|
+|7.| Temperature Converter| [Demo Link](https://itzwow.github.io/javascript-projects/temperature-converter)|
+|8.| Weather App| [Demo Link](https://itzwow.github.io/javascript-projects/Weather%20app)|
 
--> Dark-mode Toggle:https://itzwow.github.io/darkMode-toggle
 
--> Dice Game:https://itzwow.github.io/javascript-projects/Dice%20Game
+### If you Like the Repository Don't Forget to ⭐ it.
 
--> Glowing Icons:https://itzwow.github.io/javascript-projects/glowingIcons
 
--> Temperature Converter:https://itzwow.github.io/javascript-projects/temperature-converter
 
--> Drum Kit: https://itzwow.github.io/javascript-projects/Drum%20kit
+ 
 
--> Weather App: https://itzwow.github.io/javascript-projects/Weather%20app
+
+
+
+
+
+
+
+
+
+
+
