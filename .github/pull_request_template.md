@@ -1,7 +1,5 @@
 # ✨ Codu Pull Request 💻
 
-![Codu Logo](https://raw.githubusercontent.com/codu-code/codu/develop/public/images/codu-gradient.png)
-
 👉 _**Please remove the below and replace with your own values, leaving the headers where they are.**_ 👈
 
 ## Pull Request details:
