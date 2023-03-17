@@ -12,7 +12,7 @@
 |5.| Glowing Icons| [Demo Link](https://itzwow.github.io/javascript-projects/glowingIcons)|
 |6.| Random Color generator| [Demo Link](https://itzwow.github.io/randomColor)|
 |7.| Temperature Converter| [Demo Link](https://itzwow.github.io/javascript-projects/temperature-converter)|
-|8.| Weather App| [Demo Link](https://itzwow.github.io/javascript-projects/Weather%20app)|
+|8.| Weather App| [Demo Link](https://itzwow.github.io/Weather_App/)|
 
 
 ### If you Like the Repository Don't Forget to ⭐ it.
