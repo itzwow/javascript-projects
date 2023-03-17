@@ -5,14 +5,65 @@ const cardBody = document.querySelector('.card-body');
 const timeImage = document.querySelector('.card-top img');
 const cardInfo = document.querySelector('.back-card');
 
-const spitOutCelcius = (kelvin) => {
-    celcius = Math.round(kelvin - 273.15);
-    return celcius;
+const kelvinToCelsius = (kelvin) => {
+  celcius = Math.round(kelvin - 273.15);
+  return celcius;
+}
+
+const farToCelsius = (far) => {
+  celcius = Math.round((5/9)*(far-32));
+  return celcius;
 }
 const isDayTime = (icon) => {
-    if (icon.includes('d')) { return true }
-    else { return false }
+  if (icon.includes('d')) { return true }
+  else { return false }
 }
+
+
+const getWeather = async()=>{
+  
+
+  let api = "https://api.openweathermap.org/data/2.5/weather";
+  let apiKey = "cbe3dd267a18f6c89943b3eff94f1ed7";
+
+  // location.innerHTML = "Locating...";
+
+  navigator.geolocation.getCurrentPosition(success, error);
+
+  function  success(position) {
+    const latitude = position.coords.latitude;
+    const longitude = position.coords.longitude;
+    const key = 'cbe3dd267a18f6c89943b3eff94f1ed7'
+
+    let url =
+      api +
+      "?lat=" +
+      latitude +
+      "&lon=" +
+      longitude +
+      "&appid=" +
+      apiKey 
+      
+
+      fetch(url)
+      .then(response => response.json())
+      .then(data => {
+        console.log(data);
+        let temp = data.main.temp;
+        updateWeatherApp(data);
+        console.log(farToCelsius(temp));
+      });
+  }
+
+  function error() {
+    location.innerHTML = "Unable to retrieve your location";
+  }
+}
+
+getWeather();
+
+
+
 updateWeatherApp = (city) => {
     console.log(city);
     const imageName = city.weather[0].icon;
@@ -21,12 +72,12 @@ updateWeatherApp = (city) => {
     cardBody.innerHTML = `
     <div class="card-mid row">
             <div class="col-8 text-center temp">
-              <span>${spitOutCelcius(city.main.temp)}&deg;C</span>
+              <span>${kelvinToCelsius(city.main.temp)}&deg;C</span>
             </div>
             <div class="col-4 condition-temp">
               <p class="condition">${city.weather[0].description}</p>
-              <p class="high">${spitOutCelcius(city.main.temp_max)}&deg;C</p>
-              <p class="low">${spitOutCelcius(city.main.temp_min)}&deg;C</p>
+              <p class="high">${kelvinToCelsius(city.main.temp_max)}&deg;C</p>
+              <p class="low">${kelvinToCelsius(city.main.temp_min)}&deg;C</p>
             </div>
           </div>
 
@@ -35,7 +86,7 @@ updateWeatherApp = (city) => {
           </div>
           <div class="card-bottom px-5 py-4 row">
             <div class="col text-center">
-              <p>${spitOutCelcius(city.main.feels_like)}&deg;C</p>
+              <p>${kelvinToCelsius(city.main.feels_like)}&deg;C</p>
               <span>Feels Like</span>
             </div>
             <div class="col text-center">
